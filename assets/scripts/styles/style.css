@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    background: #F3F2ED;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar {
+    overflow: hidden;
+    background-color: #3A564D;
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: #E73C4E;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #F4F1F5;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    max-width: 100%;
+    padding-inline-start: 0;
+}
+li {
+    float: left;
+    margin-left: 0.1%;
+    background: #E73C4E;
+    color: #F4F1F5;
+}
+.sliderContainer {
+    padding-left: 1rem;
+    color: #F4F1F5;
+}
+.slider {
+    -webkit-appearance: none;
+    width:99%;
+    height: 15px;
+    border-radius: 5px;
+    background: #F4F1F5;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #4CAF50;
+    cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #4CAF50;
+    cursor: pointer;
+}
+
+table {
+    border-collapse: collapse;
+}
+td {
+    border: 1px solid #9C5E47;
+
+    width: 2rem;
+    height: 2rem;
+}
