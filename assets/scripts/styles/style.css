@@ -1,11 +1,11 @@
 body {
     margin: 0;
-    background: #F3F2ED;
+    background: #F1EEE9;
     font-family: Arial, Helvetica, sans-serif;
 }
 .navbar {
     overflow: hidden;
-    background-color: #3A564D;
+    background-color: #202434;
 }
 
 .navbar a {
@@ -34,7 +34,7 @@ body {
 }
 
 .navbar a:hover, .dropdown:hover .dropbtn {
-    background-color: #E73C4E;
+    background-color: #26BE26;
 }
 
 .dropdown-content {
@@ -56,7 +56,7 @@ body {
 }
 
 .dropdown-content a:hover {
-    background-color: #ddd;
+    background-color: #F1EEE9;
 }
 
 .dropdown:hover .dropdown-content {
@@ -71,19 +71,19 @@ ul {
 li {
     float: left;
     margin-left: 0.1%;
-    background: #E73C4E;
-    color: #F4F1F5;
+    background: #26BE26;
+    color: #F1EEE9;
 }
 .sliderContainer {
     padding-left: 1rem;
-    color: #F4F1F5;
+    color: #F1EEE9;
 }
 .slider {
     -webkit-appearance: none;
     width:99%;
     height: 15px;
     border-radius: 5px;
-    background: #F4F1F5;
+    background: #F1EEE9;
     outline: none;
     opacity: 0.7;
     -webkit-transition: .2s;
@@ -112,7 +112,7 @@ table {
     border-collapse: collapse;
 }
 td {
-    border: 1px solid #9C5E47;
+    border: 1px solid #879A6A;
 
     width: 2rem;
     height: 2rem;
